@@ -1,0 +1,12 @@
+{application, nitrogen,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { nitrogen_app, []}},
+  {env, []}
+ ]}.
